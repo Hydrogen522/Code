@@ -1,26 +1,10 @@
-//先设数列，赋值为一。在删掉一些数，最后打印出来。
 #include <stdio.h>
+
 int main()
 {
-    const int maxNumber = 25;
-    int isPrime[maxNumber];
-    int i, x;
-    for (i = 0;i < maxNumber;i++) {
-        isPrime[i] = 1;
-    }
-    for (x = 2;x < maxNumber;x++) {
-        if (isPrime[x]) {
-            for (i = 2;i * x < maxNumber;i++) {
-                isPrime[i * x] = 0;
-            }
-        }
-    }
-    for (i = 0;i < maxNumber;i++) {
-        if (isPrime[i]) {
-            printf("%d\t", i);
-        }
-    }
-    printf("\n");
+    int x;
+    scanf_s("%d", &x);
+    printf("%d\n%d\n%d\n", x / 100, (x / 10) % 10, x % 10);
 
     return 0;
 }
