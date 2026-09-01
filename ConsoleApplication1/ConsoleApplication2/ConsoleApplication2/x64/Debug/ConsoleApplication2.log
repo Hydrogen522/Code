@@ -1,0 +1,7 @@
+﻿  ConsoleApplication2.cpp
+E:\Code\ConsoleApplication1\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(61,11): error C2131: 表达式的计算结果不是常数
+      E:\Code\ConsoleApplication1\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(61,11):
+      失败原因是读取了常量表达式中不可使用的变量
+      E:\Code\ConsoleApplication1\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(61,11):
+      请参见“size”的用法
+  
